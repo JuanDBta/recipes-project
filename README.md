@@ -79,6 +79,8 @@
 
 - **[Created rails project]**
 - **[Created tables and relations in database]**
+- **[Added routes, models and controllers]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
