@@ -32,7 +32,7 @@ development:
   username: simplebet
 
   # The password associated with the postgres role (username).
-  password: 17Fox5017
+  password: Juan8580
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
