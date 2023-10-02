@@ -78,6 +78,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Created rails project]**
+- **[Created tables and relations in database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
