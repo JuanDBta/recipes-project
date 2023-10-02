@@ -4,7 +4,7 @@
 
 <h1><b>RECIPES PROJECT</b></h1>
  
-  <img src="./botero.jpeg" alt="logo" width="400"  height="auto">
+  <img src="./botero.jpg" alt="logo" width="400"  height="auto">
   <br/>
 
 </div>
