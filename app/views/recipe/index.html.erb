@@ -1,0 +1,31 @@
+<div class="recipes-container">
+<h2 class="main-title">Recipe List</h2>
+  <% if !@recipes.empty? %>
+    <% @recipes.each do |recipe| %>
+      <div>
+        <div>
+          <div>
+            <h3 class="recipe-name">
+              <%= link_to recipe.name, show_user_recipe_path(current_user, id: recipe.id) %>
+            </h3>
+            <% if can? :destroy, recipe %>
+            <%= link_to "Delete", destroy_user_recipe_path(user_id: current_user, id: recipe.id), method: :delete %>
+            <% end %>
+          </div>
+          <div>
+            <div>
+              <p><%= recipe.description%></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% else %>
+    <p>No recipes yet</p>
+  <% end %>
+
+  <% if can? :create, Recipe %>
+  <div>
+    <%= link_to "Add Recipe", new_user_recipe_path(current_user) %>
+  <% end %>
+</div>
